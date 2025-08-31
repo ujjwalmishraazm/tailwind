@@ -1,5 +1,9 @@
 
 
-@import "tailwindcss"
+@import "tailwindcss";
+ 
+:root{
+    --uu: #FF0000;
+ }
 
-  
+}
