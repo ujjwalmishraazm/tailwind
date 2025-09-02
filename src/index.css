@@ -1,9 +1,43 @@
 
-
 @import "tailwindcss";
- 
+ @custom-variant dark (&:where(.dark, .dark *));
 :root{
     --uu: #FF0000;
+    --background:#FF0000
+   
+   
  }
 
+@theme{
+    --color-uu: #FF0000;
+    --breakpoint-responsive: 640px;
+    --breakpoint-paaji: 540px;
+    --breakpoint-paajii: 960px;
+    --fontfamily-inter: 'Inter', sans-serif;
+    --animate-ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --animate-duration: 300ms;
+    --shadow-accent: 0 4px 30px rgba(0, 0, 3, 3);
+@keyframes ease {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
+}
+/* red color hex */
+
+.animate {
+    animation:animate-me 4s linear  infinite;
+   
+}
+ @keyframes animate-me {
+        from {
+        transform:translateX(0);
+        }
+        to {
+            transform:translateX(-100%);
+        }
+    }
+
+    .dark{
+        --background:var(--color-blue-950)
+    }

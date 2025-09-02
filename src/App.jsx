@@ -6,6 +6,10 @@ import Hero from './components/Hero'
 import Navbar1 from './components/Navbar1'
 import Home from './pages/Home'
 import Hero2 from './components/Hero2'
+import Responsive from './components/Responsive'
+import NavbarResponsive from './components/NavbarResponsive'
+import Darktheme from './components/Darktheme'
+import Grid from './components/Grid'
 
 function App() {
   return (
@@ -13,7 +17,11 @@ function App() {
      {/* <Navbarcss/>
      <Hero/> */}
   {/* <Home/> */}
-  <Hero2/>
+  {/* <Hero2/> */}
+  {/* <Responsive />   */}
+  {/* <NavbarResponsive/> */}
+  {/* <Darktheme/> */}
+  <Grid/>
     </>
   )
 }
