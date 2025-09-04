@@ -10,6 +10,9 @@ import Responsive from './components/Responsive'
 import NavbarResponsive from './components/NavbarResponsive'
 import Darktheme from './components/Darktheme'
 import Grid from './components/Grid'
+import Animaton from './components/animaton'
+import Content from './Motion/Content'
+import Card from './Motion/Card'
 
 function App() {
   return (
@@ -19,9 +22,12 @@ function App() {
   {/* <Home/> */}
   {/* <Hero2/> */}
   {/* <Responsive />   */}
-  {/* <NavbarResponsive/> */}
+  <NavbarResponsive/>
   {/* <Darktheme/> */}
-  <Grid/>
+  {/* <Grid/> */}
+   {/* <Animaton/> */}
+   {/* <Content/> */}
+   <Card/>
     </>
   )
 }

@@ -17,18 +17,35 @@
     --animate-ease: cubic-bezier(0.4, 0, 0.2, 1);
     --animate-duration: 300ms;
     --shadow-accent: 0 4px 30px rgba(0, 0, 3, 3);
-@keyframes ease {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
+    ----animate-border:border 3s linear infinite
 }
-}
+
+
+
 /* red color hex */
+@keyframes borderMove {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animations {
+  border-width: 4px;
+  border-image: linear-gradient(90deg, #3b82f6, #ec4899, #8b5cf6) 1;
+  background: linear-gradient(90deg, #3b82f6, #ec4899, #8b5cf6);
+  background-size: 400% 400%;
+  animation: borderMove 3s linear infinite;
+}
+
+
+
+
 
 .animate {
     animation:animate-me 4s linear  infinite;
    
 }
+   
  @keyframes animate-me {
         from {
         transform:translateX(0);
