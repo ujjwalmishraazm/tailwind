@@ -7,6 +7,7 @@
        <div className='h-30 w-30 bg-uu rounded-3xl shadow-accent'></div>
        <div className='h-30 w-30 bg-uu rounded-3xl shadow-accent'></div>
        <h1 className='animate-ease sm:flex-col'>responsive design</h1>
+       <h2>responsive</h2>
      </div>
    )
  }
