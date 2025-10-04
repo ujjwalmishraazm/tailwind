@@ -7,7 +7,7 @@ const NavbarResponsive = () => {
     const links = [
         {
             text: 'Home',
-            url: '/'
+            url: '/home'
         },
         {
             text: 'About',
