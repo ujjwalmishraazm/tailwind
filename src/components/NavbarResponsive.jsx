@@ -14,7 +14,7 @@ const NavbarResponsive = () => {
             url: '/about'
         },
         {
-            text: 'Services',
+            text: 'Service',
             url: '/services'
         },
         {
@@ -44,7 +44,7 @@ const NavbarResponsive = () => {
                   {
             links.map((link) => (
                 <div key={link.url} className='px-4 py-2'>
-                    <a href={link.url} className='text-gray-800 hover:text-gray-600'>{link.text}</a>
+                    <a href={link.url} className='text-gray-800 hover:text-gray-600'>{link.text}...</a>
                 </div>
             ))
         }
