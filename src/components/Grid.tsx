@@ -7,7 +7,7 @@ const Grid = () => {
         <div className="grid grid-cols-2 ">
             <Card>
                 <CardHeader>
-                    <Cardtitle className="">
+                    <Cardtitle className="bg-green-50">
                         llm marketing
                     </Cardtitle>
                 </CardHeader>
