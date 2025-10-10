@@ -5,16 +5,16 @@ const Grid = () => {
     <div className="h-screen bg-gray-400 py-10 ">
       <div className="max-w-[70%] min-h-[100%] mx-auto items-center border-x  border-gray-500 shadow-md bg-white text-gray-600 ">
         <div className="grid grid-cols-2 ">
-            <Card>
-                <CardHeader>
-                    <Cardtitle className="bg-green-50">
-                        llm marketing
-                    </Cardtitle>
-                </CardHeader>
-               <CardDescription classname="">
-                  this is description
-               </CardDescription>
-            </Card>
+          <Card>
+            <CardHeader>
+              <Cardtitle className="bg-green-50">
+                llm marketing
+              </Cardtitle>
+            </CardHeader>
+            <CardDescription classname="bg-amber-50">
+              this is descriptions
+            </CardDescription>
+          </Card>
 
         </div>
       </div>
@@ -24,18 +24,18 @@ const Grid = () => {
 
 export default Grid;
 
-const Card =({children}:{children:React.ReactNode})=>{
- return <div className="border-gray-400">{children}</div>
+const Card = ({ children }: { children: React.ReactNode }) => {
+  return <div className="border-gray-400">{children}</div>
 }
-const CardHeader=({children}:{children:React.ReactNode})=>{
-    return <div className="flex items-center gap-2">{children}</div>
+const CardHeader = ({ children }: { children: React.ReactNode }) => {
+  return <div className="flex items-center gap-2">{children}</div>
 }
-const Cardtitle  = ({children,className}:{children:React.ReactNode,className:string})=>{
+const Cardtitle = ({ children, className }: { children: React.ReactNode, className: string }) => {
   return <h2 className=" font-medium text-lg tracking-tight">{children}</h2>
 }
 
-const CardDescription =({children,classname}:{children:React.ReactNode,classname:string})=>{
-    return <p className="text-base text-neutral-300">{children}</p>
+const CardDescription = ({ children, classname }: { children: React.ReactNode, classname: string }) => {
+  return <p className="text-base text-neutral-300">{children}</p>
 }
 
 
