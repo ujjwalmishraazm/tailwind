@@ -12,7 +12,7 @@ const Grid = () => {
               </Cardtitle>
             </CardHeader>
             <CardDescription classname="bg-amber-50">
-              this is description
+              this is descriptions
             </CardDescription>
           </Card>
 
